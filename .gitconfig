@@ -1,0 +1,17 @@
+[alias]
+lg1 = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+lg = !"git lg1"
+st = !"git status"
+graph = !"git lg"
+gp = !"git graph"
+pg = !"git graph"
+cm = !"git commit -m"
+cmm = !"git commit --amend -m"
+cmd = !"git commit --amend"
+df = !"git diff"
+dfs = !"git diff --staged"
+co = !"git checkout"
+start = !"git flow feature start"
+finish = !"git flow feature finish"
+undo = !"git reset --soft HEAD~1"

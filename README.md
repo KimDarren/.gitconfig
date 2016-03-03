@@ -1,5 +1,5 @@
 # GITCONFIG
-:panda_face: It's just my .gitconfig
+:panda_face: It's just my [.gitconfig](.gitconfig)
 
 ## Alias
 
